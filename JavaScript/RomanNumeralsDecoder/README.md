@@ -1,11 +1,11 @@
 # Roman Numerals Decoder
 
-ENG:
+### ENG:
 Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
 
 Modern Roman numerals are written by expressing each decimal digit of the number to be encoded separately, starting with the leftmost digit and skipping any 0s. So 1990 is rendered "MCMXC" (1000 = M, 900 = CM, 90 = XC) and 2008 is rendered "MMVIII" (2000 = MM, 8 = VIII). The Roman numeral for 1666, "MDCLXVI", uses each letter in descending order.
 
-RUS:
+### RUS:
 Создайте функцию, которая принимает римскую цифру в качестве аргумента и возвращает ее значение в виде числового десятичного целого числа. Вам не нужно проверять форму римской цифры.
 
 Современные римские цифры пишутся путем выражения каждой десятичной цифры числа, которое будет кодироваться отдельно, начиная с самой левой цифры и пропуская любые 0s. так, 1990 год отображается "MCMXC" (1000 = M, 900 = CM, 90 = XC) и 2008 год отображается "MMVIII" (2000 = MM, 8 = VIII). Римская цифра для 1666 года, "MDCLXVI", использует каждую букву в порядке убывания.
