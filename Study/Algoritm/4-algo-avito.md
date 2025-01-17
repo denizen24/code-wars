@@ -25,6 +25,7 @@ N - days, K - users
 Доп память: O(K)
 
 # вывод
+```js
 champions = { userIds: [1, 2], steps: 5500 }
 
 function getChampions(statistics = []) {
@@ -60,3 +61,4 @@ function getChampions(statistics = []) {
     }
 
     return { userId: result, steps: max.steps}
+```
