@@ -95,8 +95,8 @@ const fs = require('fs').promises;
 async function readFiles() {
     try {
         const [file1, file2] = await Promise.all([
-        fs.readFile('file1.txt', 'utf8'),
-        fs.readFile('file2.txt', 'utf8')
+            fs.readFile('file1.txt', 'utf8'),
+            fs.readFile('file2.txt', 'utf8')
         ]);
         console.log('File 1 content:', file1);
         console.log('File 2 content:', file2);

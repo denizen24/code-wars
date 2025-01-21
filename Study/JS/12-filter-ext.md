@@ -3,7 +3,9 @@
 ### Код
 
 ```js
-const uniqueArray = array.filter((value, index, self) => self.indexOf(value) === index);
+const uniqueArray = array.filter(
+    (value, index, self) => self.indexOf(value) === index
+);
 console.log(uniqueArray);
 ```
 

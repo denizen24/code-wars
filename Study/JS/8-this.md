@@ -19,8 +19,8 @@
     }
 
    const obj = {
-   name: 'My Object',
-   method: showThis
+      name: 'My Object',
+      method: showThis
    };
 
    obj.method(); // Выведет obj

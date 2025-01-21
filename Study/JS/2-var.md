@@ -14,12 +14,12 @@ var x = 5;
 console.log(x); // 5
 
 function example() {
-var y = 10;
-if (true) {
-var y = 20; // та же самая переменная
-console.log(y); // 20
-}
-console.log(y); // 20
+    var y = 10;
+    if (true) {
+        var y = 20; // та же самая переменная
+        console.log(y); // 20
+    }
+    console.log(y); // 20
 }
 example();
 ```
@@ -38,12 +38,12 @@ let a = 5;
 console.log(a); // 5
 
 function example() {
-let b = 10;
-if (true) {
-let b = 20; // новая переменная, отличная от b выше
-console.log(b); // 20
-}
-console.log(b); // 10
+    let b = 10;
+    if (true) {
+        let b = 20; // новая переменная, отличная от b выше
+        console.log(b); // 20
+    }
+    console.log(b); // 10
 }
 example();
 ```

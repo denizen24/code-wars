@@ -16,7 +16,9 @@ console.log(uniqueArray); // [1, 2, 3, 4, 5]
 Вы можете использовать метод filter в сочетании с indexOf, чтобы отфильтровать уникальные значения.
 ```javascript
 const array = [1, 2, 2, 3, 4, 4, 5];
-const uniqueArray = array.filter((value, index, self) => self.indexOf(value) === index);
+const uniqueArray = array.filter(
+    (value, index, self) => self.indexOf(value) === index
+);
 console.log(uniqueArray); // [1, 2, 3, 4, 5]
 ```
 
@@ -27,10 +29,10 @@ console.log(uniqueArray); // [1, 2, 3, 4, 5]
 ```javascript
 const array = [1, 2, 2, 3, 4, 4, 5];
 const uniqueArray = array.reduce((accumulator, value) => {
-if (!accumulator.includes(value)) {
-accumulator.push(value);
-}
-return accumulator;
+    if (!accumulator.includes(value)) {
+        accumulator.push(value);
+    }
+    return accumulator;
 }, []);
 console.log(uniqueArray); // [1, 2, 3, 4, 5]
 ```
