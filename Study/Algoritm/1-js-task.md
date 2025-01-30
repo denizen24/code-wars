@@ -35,10 +35,10 @@ return arr
 
 ```js
 function uniqRandn(n, min = 0, max = 100) {
-// Проверка на случай, если n больше диапазона уникальных значений
-if (n > (max - min + 1)) {
-throw new Error('n is larger than the range of unique numbers.');
-}
+    // Проверка на случай, если n больше диапазона уникальных значений
+   if (n > (max - min + 1)) {
+       throw new Error('n is larger than the range of unique numbers.');
+   }
 
     const uniqueNumbers = new Set();
 
